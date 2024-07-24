@@ -1,0 +1,80 @@
+.header {
+  padding: 24px 136px 16px;
+  background: #f1f3ff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.nav__logo {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+.nav__menu {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.menu__button {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+  background-color: #5cb85f;
+  border: none;
+  padding: 8px 12px;
+}
+
+.headerStep {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 63px;
+}
+
+.headerStep__detail {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.detail__title {
+  font-weight: 700;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+.detail__order {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.headerStep__steps {
+  display: flex;
+  gap: 12px;
+  align-items: start;
+}
+
+.headerStep__steps_line {
+  width: 28px;
+  height: 1px;
+  background-color: #0d28a6;
+  margin-top: 8.5px;
+}
+
+.steps__container {
+  display: flex;
+  align-items: center;
+}
+
+.steps__icon {
+  margin-right: 8px;
+  width: 14px;
+  height: 14px;
+}
